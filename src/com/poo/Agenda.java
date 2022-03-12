@@ -12,9 +12,9 @@ public class Agenda {
         return registros;
     }
 
-    public void setRegistros(ArrayList<Contato> registros) {
-        this.registros = registros;
-    }
+  //  public void setRegistros(ArrayList<Contato> registros) {
+  //      this.registros = registros;
+   // }
 
     public void registrarContato(Contato contato) {
         registros.add(contato);
@@ -26,6 +26,16 @@ public class Agenda {
 
 
     return quantidade;
+    }
+
+    public void listarContatos(){
+        for (int i = 0; i < registros.size(); i++) {
+            System.out.println("Cod.: " + registros.get(i).getId());
+            System.out.println("Nome: " + registros.get(i).getNome());
+            System.out.println("Telefone: " + registros.get(i).getNumero());
+
+        }
+
     }
 
 }

@@ -6,19 +6,7 @@ public class Contato {
     private int id;
 
 
-    public Contato(String nome, int numero, int id) {
-        this.nome = nome;
-        this.numero = numero;
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+//
 
     public String getNome() {
         return nome;
@@ -34,5 +22,13 @@ public class Contato {
 
     public void setNumero(int numero) {
         this.numero = numero;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
