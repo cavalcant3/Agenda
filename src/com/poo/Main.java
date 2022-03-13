@@ -25,7 +25,7 @@ A classe Agenda deve possuir 6 métodos:
       //  c1.registrarContato(contato2);
 
         //c1.apagarTodos();
-       // c1.apagarTelefone(0); -- apagando por index do array list
+        c1.apagarTelefone(0); // -- apagando por index do array list
 
 
         System.out.println("Quantidade de contatos: "+c1.quantContatos() + "/10");
